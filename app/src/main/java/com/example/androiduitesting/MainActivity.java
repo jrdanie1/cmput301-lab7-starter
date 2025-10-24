@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Original MainActivity views
+        // Original MainActivity view
         nameField = findViewById(R.id.field_nameEntry);
         newName = findViewById(R.id.editText_name);
         cityList = findViewById(R.id.city_list);
